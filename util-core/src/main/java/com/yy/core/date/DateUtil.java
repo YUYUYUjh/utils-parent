@@ -39,7 +39,6 @@ public class DateUtil extends Date {
      *
      * @param date 日期
      * @return 是否在给定日期之后
-     * @since 4.1.3
      */
     public boolean isAfter(Date date) {
         if (null == date) {
@@ -53,7 +52,6 @@ public class DateUtil extends Date {
      *
      * @param date 日期
      * @return 是否在给定日期之后或与给定日期相等
-     * @since 3.0.9
      */
     public boolean isAfterOrEquals(Date date) {
         if (null == date) {
